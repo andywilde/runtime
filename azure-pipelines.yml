@@ -11,6 +11,7 @@ pool:
 
 steps:
 - checkout: self
+  fetchTags: false
 
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
